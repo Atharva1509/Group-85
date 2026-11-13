@@ -1,0 +1,18 @@
+# T35 - thesis converted to F, repeated: the old F keeps counting until the new attempt is converted
+PROGRAM 8 0 5.00 12 4
+COURSE C1 REGULAR 4 CORE -
+COURSE TH THESIS 4 CORE -
+STUDENT S1 Asha
+REGISTER S1 C1 1
+GRADE S1 C1 1 A
+REGISTER S1 TH 2
+GRADE S1 TH 2 S
+CONVERT S1 TH F
+GPA S1
+REGISTER S1 TH 3
+GRADE S1 TH 3 S
+GPA S1
+GRAD S1
+CONVERT S1 TH B
+GPA S1
+GRAD S1
