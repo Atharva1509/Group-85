@@ -1,0 +1,11 @@
+# T15 - thesis converted to D: credits earned, R4 fails
+PROGRAM 8 0 4.00 12 0
+COURSE TH THESIS 8 CORE -
+STUDENT R1 Asha
+REGISTER R1 TH 1
+GRADE R1 TH 1 S
+GRAD R1
+CONVERT R1 TH D
+GPA R1
+AVG R1
+GRAD R1
