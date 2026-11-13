@@ -1,0 +1,13 @@
+# T23 - an error in the middle of a file: later lines still run
+PROGRAM 20 3 5.00 12 10
+
+COURSE C1 REGULAR 4 CORE -
+# a comment still counts as a line
+STUDENT R1 Asha
+REGISTER R1 C1 1
+GRADE R1 C1 1 Q
+NONSENSE
+
+GRADE R1 C1 1 A
+GPA R1
+AVG R1

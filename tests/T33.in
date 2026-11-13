@@ -1,0 +1,17 @@
+# T33 - tabs, extra blanks, case sensitivity, duplicates
+PROGRAM 20 3 5.00 12 10
+COURSE	C1	REGULAR	4	CORE	-
+   STUDENT    R1    Asha   
+STUDENT r1 Lower
+STUDENT R1 Again
+STUDENT r1 Again
+COURSE c1 REGULAR 4 CORE -
+COURSE C1 REGULAR 3 ELECTIVE -
+REGISTER  R1   C1   1
+REGISTER r1 c1 1
+GRADE R1 C1 1 A
+GPA R1
+GPA r1
+gpa R1
+   
+GRAD R1
