@@ -1,0 +1,16 @@
+# T34 - indented comment is ignored (line still counts); CONVERT with S/X is a type error
+PROGRAM 8 0 5.00 12 4
+   # indented comment
+COURSE C1 REGULAR 4 CORE -
+COURSE TH THESIS 4 CORE -
+STUDENT S1 Asha
+REGISTER S1 C1 1
+GRADE S1 C1 1 A
+REGISTER S1 TH 2
+GRADE S1 TH 2 S
+CONVERT S1 TH S
+CONVERT S1 TH X
+CONVERT S1 TH Q
+CONVERT S1 C1 B
+CONVERT S1 TH B
+GPA S1
